@@ -95,7 +95,7 @@ quizapp/
 
 ---
     
-## 👨‍💻 Author
+ 👨‍💻 Author
 
 Muhammad Nouman Qamar
 Frontend Developer | Python Enthusiast | Web App Developer
