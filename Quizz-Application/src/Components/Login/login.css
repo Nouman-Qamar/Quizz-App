@@ -1,0 +1,112 @@
+/* Wrapper to center the login box */
+.login-wrapper {
+  display: flex;
+  justify-content: center;      /* Center horizontally */
+  align-items: center;          /* Center vertically */
+  min-height: 750px; /* Leave space for header/footer if they exist */
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Login box (card) */
+.login-box {
+  background-color: white;
+  width: 350px;
+  padding: 35px 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Title & subtitle */
+.login-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.login-subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.login-form label {
+  margin: 10px 0 5px;
+  font-weight: 500;
+  color: #444;
+}
+
+.login-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  font-size: 14px;
+}
+
+.login-form input:focus {
+  border-color: #6e8efb;
+  outline: none;
+  box-shadow: 0px 0px 6px rgba(110, 142, 251, 0.4);
+}
+
+/* Button styling */
+.login-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #6e8efb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login-form button:hover {
+  background-color: #5a78e0;
+  transform: scale(1.03);
+}
+
+/* Message display */
+.login-message {
+  margin-top: 15px;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Footer link */
+.login-footer {
+  margin-top: 20px;
+  color: #555;
+  font-size: 14px;
+}
+
+.login-footer a {
+  color: #6e8efb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Fix footer position at the bottom when page has little content */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+.main-content {
+  flex: 1; /* Push footer down */
+}

@@ -1,0 +1,168 @@
+.landing-container {
+    font-family: Arial, sans-serif;
+    background: #F8FAFC;  /* Slightly lighter background */
+    color: #1E293B;       /* Using your header color for text */
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #4F46E5 0%, #7E22CE 100%); /* Indigo to Purple */
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+.get-started {
+    padding: 14px 32px;
+    font-size: 1rem;
+    background: #06B6D4; /* Cyan pop */
+    color: #1E293B;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.get-started:hover {
+    background: #22D3EE; /* Lighter cyan on hover */
+    
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    background: #FFFFFF; /* Clean white background */
+}
+.about h2 {
+    margin-bottom: 20px;
+    color: #7E22CE; /* Deep Purple accent */
+}
+
+/* Features Section */
+.features {
+    padding: 60px 20px;
+    background: #F1F5F9; /* Very light blue-gray */
+    margin-bottom: 50px;
+    text-align: center;
+}
+.features h2 {
+    color: #7E22CE; /* Deep Purple accent */
+    margin-bottom: 30px;
+}
+.feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.feature-card {
+    background: #FFFFFF; /* White cards */
+    border-radius: 12px;
+    width: 220px;
+    padding: 24px;
+    transition: 0.3s;
+    border: 1px solid #E2E8F0; /* Subtle border */
+}
+.feature-card:hover {
+    background: #7E22CE; /* Deep Purple background on hover */
+    color: white;
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(126, 34, 206, 0.2); /* Deep Purple shadow */
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 60px 20px;
+    background: #FFFFFF; /* Clean white */
+    margin-bottom: 50px;
+    text-align: center;
+}
+.how-it-works h2 {
+    margin-bottom: 25px;
+    color: #7E22CE; /* Deep Purple accent */
+}
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.step {
+    background: #F8FAFC; /* Light background for steps */
+    border-radius: 10px;
+    width: 160px;
+    padding: 20px;
+    transition: 0.3s;
+    border: 1px solid #E2E8F0;
+}
+.step:hover {
+    background: #7E22CE; /* Deep Purple background on hover */
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 60px 20px;
+    text-align: center;
+    background: #F1F5F9; /* Light blue-gray */
+    margin-bottom: 50px;
+}
+.testimonials h2 {
+    color: #7E22CE; /* Deep Purple accent */
+    margin-bottom: 25px;
+}
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.testimonial-card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 260px;
+    padding: 22px;
+    font-style: italic;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    border-left: 4px solid #7E22CE; /* Deep Purple accent border */
+}
+
+/* Call to Action Section */
+.cta {
+    text-align: center;
+    padding: 60px 20px;
+    background: #1E293B; /* Matching your header color */
+    border-radius: 12px;
+    margin-bottom: 50px;
+    color: white;
+}
+.start-learning {
+    padding: 14px 32px;
+    font-size: 1rem;
+    background: #06B6D4; /* Cyan for contrast */
+    color: #1E293B;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.start-learning:hover {
+    background: #22D3EE; /* Lighter cyan */
+    transform: translateY(-2px);
+}

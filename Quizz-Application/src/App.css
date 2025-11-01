@@ -1,0 +1,9 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  
+  background-color: #dbdde1;
+  min-height: 100vh;
+  flex: 1;
+}
+
