@@ -100,8 +100,4 @@ quizapp/
 Muhammad Nouman Qamar
 Frontend Developer | Python Enthusiast | Web App Developer
 
-🌐 Portfolio: [your-portfolio-link]
 
----
-
-Would you like me to add a **demo section** (with space for a live link or screenshots) to make it more attractive for your GitHub profile?
